@@ -5,7 +5,6 @@ def letter_count(s):
     new_dict = {}
     for i in s:
         if i not in new_dict:
-            print(i)
             new_dict.update({i:1})
         elif i in new_dict:
             new_dict[i] += 1
